@@ -18,6 +18,7 @@ document
     if (cashOutpinNumber === "1234" && cashOutAmount <= balance) {
       const newBalance = balance - cashOutAmount;
       document.getElementById("account-balance").innerText = newBalance;
+      alert(`${cashOutAmount} tk cash-out from your wallet`);
 
       // transition history add
       const p = document.createElement("p");

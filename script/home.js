@@ -18,6 +18,7 @@ document
       const newBalance = balance + addMoneyAmount;
 
       document.getElementById("account-balance").innerText = newBalance;
+      alert(`${addMoneyAmount} TK added your main balance`);
 
       // add to transition history
       const p = document.createElement("p");
