@@ -9,6 +9,8 @@ document
     const pinNumber = document.getElementById("pin-number").value;
     if (phoneNumber === "12" && pinNumber === "1234") {
       window.location.href = "home.html";
+      const userName = document.getElementById("user-name").value;
+      alert(`Congratulation ${userName.toUpperCase()}! You got 500 TK bonus`);
     } else {
       alert("Login failed. Try again!");
     }

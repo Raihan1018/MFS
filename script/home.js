@@ -31,3 +31,9 @@ document
     // form reset
     document.getElementById("add-money-form").reset();
   });
+
+// logout
+document.getElementById("log-out-btn").addEventListener("click", function () {
+  window.location.href = "index.html";
+  
+});
